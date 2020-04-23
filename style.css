@@ -1,0 +1,91 @@
+.header{
+    height: 100px;
+    display : flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    position: relative;
+    border: 1px solid black;
+}
+
+.left-side {
+    display: flex;
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.lista-majte {
+    height: inherit;
+    flex-wrap: nowrap;
+}
+
+.header img {
+    height: 50px;  
+    width: 50px;
+}
+
+.lista-majte li:hover {
+    background-color: blue;
+    color: white;
+}
+
+.lista-majte li {
+    padding-top: 13px;
+    padding: 0px 10px;
+}
+
+.lista-majte {
+    height: 40%;
+    border: 1px solid black;
+    align-items:flex-end;
+}
+
+.lista-djathte{
+    height: 40%;
+    border: 1px solid black;
+}
+
+.lista-djathte li {
+    background-color: lightblue;
+}
+
+.lista-djathte li:hover{
+    background-color: blue;
+    color: white;
+}
+
+.text-container {
+    text-align: center;
+}
+
+.middle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-us-container {
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-evenly;
+    height: 70vh;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.upper-box {
+    order: 2;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
